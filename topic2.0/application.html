@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Smart Lighting Application</title>
+	<!-- jQuery library -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<!-- Custom CSS -->
+	<style>
+		.light {
+			width: 50px;
+			height: 50px;
+			margin: 10px;
+			border-radius: 50%;
+			display: inline-block;
+		}
+	</style>
+</head>
+<body style="background-image: url(https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/129325364/original/afaddcb9d7dfaaf5bff7ef04101935814665ac16/design-an-attractive-background-for-your-website.png);">
+	<h1 style="color: white;">Smart Lighting Application</h1>
+	<div>
+		<label for="light-select" style="color: white;">Select a Light:</label>
+		<select id="light-select">
+			<option value="1">Light 1</option>
+			<option value="2">Light 2</option>
+			<option value="3">Light 3</option>
+		</select>
+	</div>
+	<div>
+        <br>
+        <br>
+        <br>
+		<label for="color-select" style="color: white;">Select a Color:</label>
+		<input type="color" id="color-select">
+	</div>
+	<div>
+        <br>
+        <br>
+		<h2 style="color: white;">Current Status:</h2>
+		<div class="light" id="light1"></div>
+		<div class="light" id="light2"></div>
+		<div class="light" id="light3"></div>
+	</div>
+	<!-- Custom JavaScript -->
+	<script src="script.js"></script>
+</body>
+</html>
